@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "130924258985",
+    "firebase_url": "https://signinfirebase-8de87.firebaseio.com",
+    "project_id": "signinfirebase-8de87",
+    "storage_bucket": "signinfirebase-8de87.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130924258985:android:cdb5719484939cca",
+        "android_client_info": {
+          "package_name": "com.lee.jirayut.signinfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130924258985-q01tl63h2mra0c8kqctqo5omp23lse58.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lee.jirayut.signinfirebase",
+            "certificate_hash": "19b8d4de6e9c8013b2b7a8c07add939211a896dc"
+          }
+        },
+        {
+          "client_id": "130924258985-n5bpu2em95jdvja0snguf3p9ra1d3stg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnSX2CvRgRJ6Zh9uGqa1AqGvASw20dKm4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "130924258985-n5bpu2em95jdvja0snguf3p9ra1d3stg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130924258985:android:34f3334508349f53",
+        "android_client_info": {
+          "package_name": "com.lee.jirayut.authorizefirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130924258985-89nlh6ht9egml1kb8t33boiejntjo5gg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lee.jirayut.authorizefirebase",
+            "certificate_hash": "19b8d4de6e9c8013b2b7a8c07add939211a896dc"
+          }
+        },
+        {
+          "client_id": "130924258985-n5bpu2em95jdvja0snguf3p9ra1d3stg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnSX2CvRgRJ6Zh9uGqa1AqGvASw20dKm4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "130924258985-n5bpu2em95jdvja0snguf3p9ra1d3stg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
