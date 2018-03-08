@@ -13,7 +13,7 @@ public class Signin extends AppCompatActivity {
 
     private FirebaseAuth mAuth;
     TextView email;
-    Button signout;
+    Button signout, newPost, viewPost;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +23,8 @@ public class Signin extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         email = findViewById(R.id.email);
         signout = findViewById(R.id.signout);
+        newPost = findViewById(R.id.newPost);
+        viewPost = findViewById(R.id.viewPost);
 
         if(mAuth.getCurrentUser() == null){
             finish();
@@ -35,5 +37,13 @@ public class Signin extends AppCompatActivity {
         mAuth.signOut();
         finish();
         startActivity(new Intent(getApplicationContext(), MainActivity.class));
+    }
+
+    public void newPost(View v){
+        startActivity(new Intent( getApplicationContext(), NewPost.class));
+    }
+
+    public void viewPost(View v){
+
     }
 }
