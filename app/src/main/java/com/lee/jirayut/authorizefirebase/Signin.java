@@ -44,6 +44,6 @@ public class Signin extends AppCompatActivity {
     }
 
     public void viewPost(View v){
-
+        startActivity(new Intent(getApplicationContext(), ViewPosts.class));
     }
 }
