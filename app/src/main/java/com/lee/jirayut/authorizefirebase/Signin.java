@@ -21,10 +21,10 @@ public class Signin extends AppCompatActivity {
         setContentView(R.layout.activity_signin);
 
         mAuth = FirebaseAuth.getInstance();
-        email = findViewById(R.id.email);
-        signout = findViewById(R.id.signout);
-        newPost = findViewById(R.id.newPost);
-        viewPost = findViewById(R.id.viewPost);
+        email = (TextView) findViewById(R.id.email);
+        signout = (Button) findViewById(R.id.signout);
+        newPost = (Button)findViewById(R.id.newPost);
+        viewPost = (Button)findViewById(R.id.viewPost);
 
         if(mAuth.getCurrentUser() == null){
             finish();

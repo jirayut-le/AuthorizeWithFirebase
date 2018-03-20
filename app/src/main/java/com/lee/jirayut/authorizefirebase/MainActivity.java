@@ -31,10 +31,10 @@ public class MainActivity extends AppCompatActivity {
 
         mAuth = FirebaseAuth.getInstance();
 
-        signin = findViewById(R.id.signinBtn);
-        signup = findViewById(R.id.signupBtn);
-        emailInput = findViewById(R.id.emailInput);
-        passwordInput = findViewById(R.id.passwordInput);
+        signin = (Button) findViewById(R.id.signinBtn);
+        signup = (Button) findViewById(R.id.signupBtn);
+        emailInput = (EditText) findViewById(R.id.emailInput);
+        passwordInput =  (EditText)findViewById(R.id.passwordInput);
 
         if(mAuth.getCurrentUser() != null){
             finish();

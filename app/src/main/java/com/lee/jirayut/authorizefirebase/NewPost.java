@@ -48,14 +48,14 @@ public class NewPost extends AppCompatActivity {
 
         Firebase.setAndroidContext(this);
 
-        selectImg = findViewById(R.id.selectImage);
-        post = findViewById(R.id.post);
-        imageView = findViewById(R.id.imageView);
-        titleTxt = findViewById(R.id.titleTxt);
+        selectImg =(Button) findViewById(R.id.selectImage);
+        post = (Button)findViewById(R.id.post);
+        imageView = (ImageView) findViewById(R.id.imageView);
+        titleTxt = (TextView) findViewById(R.id.titleTxt);
 
         mProgressDialog = new ProgressDialog(NewPost.this);
 
-//        mDatabaseRef = FirebaseDatabase.getInstance().getReference();
+        mDatabaseRef = FirebaseDatabase.getInstance().getReference();
         mRootRef = new Firebase("https://signinfirebase-8de87.firebaseio.com/").child("User_Details").push();
         mStorage =  FirebaseStorage.getInstance().getReferenceFromUrl("gs://signinfirebase-8de87.appspot.com/");
     }
