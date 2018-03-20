@@ -24,13 +24,13 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="148dp"
         android:layout_marginStart="148dp"
-        android:layout_marginTop="124dp"
+        android:layout_marginTop="32dp"
         android:onClick="signout"
         android:text="Signout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/email" />
+        app:layout_constraintTop_toBottomOf="@+id/locationService" />
 
     <Button
         android:id="@+id/newPost"
@@ -55,4 +55,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/newPost"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/locationService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:onClick="locationService"
+        android:text="Location Service"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newPost" />
 </android.support.constraint.ConstraintLayout>

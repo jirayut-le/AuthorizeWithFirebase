@@ -21,7 +21,8 @@
         </activity>
         <activity android:name=".Signin" />
         <activity android:name=".NewPost" />
-        <activity android:name=".ViewPosts"></activity>
+        <activity android:name=".ViewPosts" />
+        <activity android:name=".ViewLocation"></activity>
     </application>
 
 </manifest>
